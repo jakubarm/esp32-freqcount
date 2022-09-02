@@ -41,6 +41,7 @@
 #include "frequency_count.h"
 
 #define TAG "frequency_counter"
+#define RMT_CHANNEL_MEM_WORDS 256
 
 // In ESP-IDF v4.1-beta1 (and presumably newer), the macro RMT_MEM_BLOCK_BYTE_NUM has been removed
 #if (ESP_IDF_VERSION_MAJOR == 4)
